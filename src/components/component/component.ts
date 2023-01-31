@@ -9,6 +9,6 @@ export abstract class Component {
   render() {
     // Si lo separamos, habrá que llamarlo cuando queramos utilizarlo.
     const element = document.querySelector(this.selector) as HTMLElement;
-    element.insertAdjacentHTML('afterbegin', this.template);
+    element.insertAdjacentHTML('beforeend', this.template);
   }
 }
