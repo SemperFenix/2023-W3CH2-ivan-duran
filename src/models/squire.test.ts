@@ -11,6 +11,7 @@ describe('Given the class Squire', () => {
         family: 'Arryn',
         isAlive: true,
         age: 18,
+        servilism: 10,
         boss: jaime,
       };
       expect(r).toEqual(result);
