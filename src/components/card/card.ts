@@ -1,6 +1,5 @@
 import { mockCharacters } from '../../mocks/characters';
 import { King } from '../../models/king';
-import { Character } from '../../models/character';
 import { Fighter } from '../../models/fighter';
 import { Counselor } from '../../models/counselor';
 import { Squire } from '../../models/squire';
