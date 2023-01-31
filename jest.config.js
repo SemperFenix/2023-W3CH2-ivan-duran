@@ -5,4 +5,3 @@ export default {
   testPathIgnorePatterns: ['dist'],
   // TEMP resolver: "jest-ts-webcompat-resolver",
 };
-
