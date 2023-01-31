@@ -1,4 +1,3 @@
-import { Character } from '../models/character';
 import { Counselor } from '../models/counselor';
 import { Fighter } from '../models/fighter';
 import { King } from '../models/king';
@@ -10,10 +9,4 @@ const daenerys = new Fighter('Daenerys', 'Targaryen', 19, 'Dragon', 6);
 const tyrion = new Counselor('Tyrion', 'Lannister', 28, joffrey);
 const bronn = new Squire('Bronn', 'None', 38, 3, jaime);
 
-export const mockCharacters: Character[] = [
-  joffrey,
-  jaime,
-  daenerys,
-  tyrion,
-  bronn,
-];
+export const mockCharacters = [joffrey, jaime, daenerys, tyrion, bronn];
