@@ -1,0 +1,11 @@
+{
+  "name": "202301-w3ch2-ivan-duran",
+  "version": "1.0.0",
+  "description": "Challenge 1.2 Week 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage"
+  },
+  "author": "Ivan Duran",
+  "license": "ISC"
+}
