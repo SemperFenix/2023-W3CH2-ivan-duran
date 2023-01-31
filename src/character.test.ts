@@ -1,4 +1,4 @@
-import { Character } from './Personaje';
+import { Character } from './character';
 describe('Given the class Character', () => {
   describe('When pass the name, family and age properties', () => {
     test('Then it should return an object with the same properties and the values given', () => {
