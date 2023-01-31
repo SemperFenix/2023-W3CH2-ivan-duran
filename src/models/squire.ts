@@ -1,7 +1,7 @@
 import { Character } from './character';
 import { Fighter } from './fighter';
 
-export class Counselor extends Character {
+export class Squire extends Character {
   // eslint-disable-next-line max-params
   constructor(
     name: string,
