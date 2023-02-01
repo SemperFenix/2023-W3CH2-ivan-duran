@@ -94,3 +94,8 @@ body {
   right: 5px;
   top: 5px;
 }
+
+.inactive {
+  opacity: 0.3;
+  color: grey;
+}
