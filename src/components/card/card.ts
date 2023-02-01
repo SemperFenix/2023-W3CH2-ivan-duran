@@ -5,12 +5,18 @@ import { Counselor } from '../../models/counselor';
 import { Squire } from '../../models/squire';
 import { Component } from '../component/component';
 
-const areKings = mockCharacters.filter((item) => item instanceof King);
-const areFighters = mockCharacters.filter((item) => item instanceof Fighter);
-const areCounselors = mockCharacters.filter(
-  (item) => item instanceof Counselor
+const areKings = JSON.parse(
+  JSON.stringify(mockCharacters.filter((item) => item instanceof King))
 );
-const areSquires = mockCharacters.filter((item) => item instanceof Squire);
+const areFighters = JSON.parse(
+  JSON.stringify(mockCharacters.filter((item) => item instanceof Fighter))
+);
+const areCounselors = JSON.parse(
+  JSON.stringify(mockCharacters.filter((item) => item instanceof Counselor))
+);
+const areSquires = JSON.parse(
+  JSON.stringify(mockCharacters.filter((item) => item instanceof Squire))
+);
 
 export class Card extends Component {
   // eslint-disable-next-line no-unused-vars
@@ -23,7 +29,7 @@ export class Card extends Component {
   private createTemplate() {
     let cardTemplate = '';
 
-    areKings.forEach((item) => {
+    areKings.forEach((item: King) => {
       cardTemplate += `'<li class="character col">
       <div class="card character__card">
       <img
@@ -59,7 +65,7 @@ export class Card extends Component {
     </div>
   </li>`;
     });
-    areFighters.forEach((item) => {
+    areFighters.forEach((item: Fighter) => {
       cardTemplate += `'<li class="character col">
       <div class="card character__card">
       <img
@@ -95,7 +101,7 @@ export class Card extends Component {
     </div>
   </li>`;
     });
-    areCounselors.forEach((item) => {
+    areCounselors.forEach((item: Counselor) => {
       cardTemplate += `'<li class="character col">
       <div class="card character__card">
       <img
@@ -133,7 +139,7 @@ export class Card extends Component {
     </div>
   </li>`;
     });
-    areSquires.forEach((item) => {
+    areSquires.forEach((item: Squire) => {
       cardTemplate += `'<li class="character col">
       <div class="card character__card">
       <img
