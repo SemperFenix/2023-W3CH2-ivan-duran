@@ -46,7 +46,7 @@ export class Card extends Component {
             <li>Edad: ${item.age}</li>
             <li>
               Estado:
-              <i class="fas fa-thumbs-down"></i>
+              <i class="fas fa-thumbs-down inactive"></i>
               <i class="fas fa-thumbs-up"></i>
             </li>
           </ul>
@@ -82,7 +82,7 @@ export class Card extends Component {
             <li>Edad: ${item.age}</li>
             <li>
               Estado:
-              <i class="fas fa-thumbs-down"></i>
+              <i class="fas fa-thumbs-down inactive"></i>
               <i class="fas fa-thumbs-up"></i>
             </li>
           </ul>
@@ -118,7 +118,7 @@ export class Card extends Component {
             <li>Edad: ${item.age}</li>
             <li>
               Estado:
-              <i class="fas fa-thumbs-down"></i>
+              <i class="fas fa-thumbs-down inactive"></i>
               <i class="fas fa-thumbs-up"></i>
             </li>
           </ul>
@@ -156,7 +156,7 @@ export class Card extends Component {
             <li>Edad: ${item.age}</li>
             <li>
               Estado:
-              <i class="fas fa-thumbs-down"></i>
+              <i class="fas fa-thumbs-down inactive"></i>
               <i class="fas fa-thumbs-up"></i>
             </li>
           </ul>
